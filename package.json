@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "dev": "node src/server.js",
-    "start": "node src/server.js",
+    "dev": "node api.js && node src/server.js",
+    "start": "node api.js && node src/server.js",
     "demo": "node src/demo.js",
     "preflight": "node src/demo-preflight.js",
     "record:video": "node src/record-demo-video.js",
@@ -37,7 +37,7 @@
   ],
   "author": "StellarMind Team",
   "license": "MIT",
-  "description": "AI Agent Marketplace with x402 Micropayments on Stellar — Claude-powered agents that buy, sell, and earn autonomously",
+  "description": "AI Agent Marketplace with x402 Micropayments on Stellar \u2014 Claude-powered agents that buy, sell, and earn autonomously",
   "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0",
@@ -45,7 +45,7 @@
     "@x402/core": "^2.9.0",
     "@x402/express": "^2.9.0",
     "@x402/fetch": "^2.13.0",
-    "@x402/stellar": "^2.9.0",
+    "@x402/stellar": "^2.14.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.1",
     "express": "^5.2.1",
